@@ -141,6 +141,9 @@
             <text variable="page"/>
           </group>
         </else-if>
+	<else-if type="webpage">
+	 <text macro="access"/>
+	</else-if>
         <else>
           <text macro="journal-title"/>
           <group delimiter=": ">
@@ -152,7 +155,6 @@
           </date>
         </else>
       </choose>
-      <text macro="access"/>
     </layout>
   </bibliography>
 </style>
